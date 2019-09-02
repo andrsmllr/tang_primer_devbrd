@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+    <Project_Created_Time>2019-09-02 20:54:03</Project_Created_Time>
+    <TD_Version>4.4.433</TD_Version>
+    <UCode>10001110</UCode>
+    <Name>tang_primer_prj</Name>
+    <HardWare>
+        <Family>EG4</Family>
+        <Device>EG4S20BG256</Device>
+    </HardWare>
+    <Source_Files>
+        <Verilog>
+            <File>../src/ocmult.v</File>
+            <File>../src/ocram_sp.v</File>
+            <File>../src/sdram_ctl.v</File>
+            <File>../src/top.v</File>
+            <File>../ip/ip_bram.v</File>
+            <File>../ip/ip_bram_32k.v</File>
+            <File>../ip/ip_dsp.v</File>
+            <File>../ip/ip_fifo.v</File>
+            <File>../ip/ip_lutfifo.v</File>
+            <File>../ip/ip_oc_adc.v</File>
+            <File>../ip/ip_oc_osc.v</File>
+            <File>../ip/ip_oc_sdram.v</File>
+            <File>../ip/ip_pll.v</File>
+        </Verilog>
+        <ADC_FILE/>
+        <SDC_FILE>../constr/top.sdc</SDC_FILE>
+        <CWC_FILE/>
+    </Source_Files>
+    <TOP_MODULE>
+        <LABEL/>
+        <MODULE>top</MODULE>
+        <CREATEINDEX>user</CREATEINDEX>
+    </TOP_MODULE>
+    <Project_Settings>
+        <Step_Last_Change>2019-09-02 20:57:02</Step_Last_Change>
+        <Current_Step>60</Current_Step>
+        <Step_Status>true</Step_Status>
+    </Project_Settings>
+</Project>
